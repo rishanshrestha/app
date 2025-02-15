@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            /* background-image: url(./download.jpeg); */
+            margin: 0;
+            padding: 0;
+            /* background: rgb(160, 201, 99); */
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login-container {
+            background:url(./lake_mountains_forest_152659_1600x900.jpg);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+        }
+        .login-container h2 {
+            margin-bottom: 20px;
+        }
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-container .btn {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background: #2c3e50;
+            color: white;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .login-container .btn:hover {
+            background: #1a252f;
+        }
+        .login-container p {
+            margin-top: 15px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <!-- <button type="submit" class="btn">Login</button> -->
+             <a href="home.html"class="btn">Login</a>
+        </form>
+        <p>Don't have an account? <a href="ragister.html">Sign up</a></p>
+    </div>
+</body>
+</html>
